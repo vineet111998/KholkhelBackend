@@ -3,7 +3,7 @@
 
 #Change Dockerfile
 
-#ENV DATABASE_IP = <DATABASE _IP>
+#ENV DATABASE_IP = <asdDATABASE _IP>
 
 #ENV PORT = <DATABASE_PORT>
 
