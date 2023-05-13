@@ -15,7 +15,8 @@ class DatabaseConnection{
     }
     setDb(){
         // this.databaseConnection.connect('mongodb://'+process.env.DATABASE_IP+':'+process.env.PORT+'/GameApi',()=>{
-            this.databaseConnection.connect('mongodb://localhost:27017/GameApi',()=>{
+            // console.log('connecting to Database');
+            this.databaseConnection.connect('mongodb://127.0.0.1:27017/GameApi', () => {
             console.log("connected!!!");
             // return true;
         });
